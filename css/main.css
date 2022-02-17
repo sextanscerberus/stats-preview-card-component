@@ -1,0 +1,50 @@
+/* 			1-2
+	font-family: 'Lexend Deca', sans-serif; 3-4
+*/
+
+:root {
+	--very-dark-blue: hsl(233, 47%, 7%); /* main background */
+	--dark-desaturated-blue: hsl(244, 38%, 16%); /* card background */
+	--soft-violet: hsl(277, 64%, 61%); /* accent */
+	--white: hsl(0, 0%, 100%); /* main heading, stats */
+	--slightly-transparent-white: hsla(0, 0%, 100%, 0.75); /* main paragraph */
+	--transparent-white: hsla(0, 0%, 100%, 0.6); /* stat headings */
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-size: 12px;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--very-dark-blue);
+	color: var(--slightly-transparent-white);
+
+}
+
+#component {
+	width: 80%;
+	background-color: var(--dark-desaturated-blue);
+}
+
+#desktop-header {
+	display: none;
+}
+
+#mobile-header {
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	color: var(--white);
+}
+
+#attribution {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}

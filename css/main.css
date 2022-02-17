@@ -21,7 +21,7 @@ body {
 }
 
 #component {
-	width: 80%;
+	width: 75%;
 	background-color: var(--dark-desaturated-blue);
 	border-radius: 5px;
 }
@@ -64,6 +64,7 @@ h1 span {
 #main-paragraph {
 	color: var(--slightly-transparent-white);
 	line-height: 1.5em;
+	font-size: 1.1em;
 }
 
 #stats {
@@ -92,4 +93,23 @@ h2 {
 
 #attribution a {
 	color: var(--white);
+}
+
+/* media queries */
+@media (min-width: 426px) {
+	#component {
+		width: 65%;
+	}
+}
+
+@media (min-width: 551px) {
+	#component {
+		width: 60%;
+	}
+}
+
+@media (min-width: 601px) {
+	#component {
+		width: 50%;
+	}
 }
